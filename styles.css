@@ -1,0 +1,124 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #003161; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  /* Subtitle Styling */
+  .subtitle {
+    background-color: #ffffff; /* Başlıkla aynı renk */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Main Section Styling */
+  main {
+    width: 80%;
+    text-align: center;
+  }
+  
+  /* Buttons Styling */
+  button {
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  #add_button {
+    background-color: #fdd835; /* Yellow */
+    margin-bottom: 10px;
+  }
+  
+  #delete_button {
+    background-color: #fdd835; /* Yellow */
+    margin-bottom: 10px;
+  }
+  
+  #clear_button {
+    background-color: #000000; /* Black */
+    color: white;
+    margin: 20px 0;
+  }
+  
+  /* Output Sections Styling */
+  .output-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .output-section {
+    width: 48%;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 700px;
+    overflow-y: auto;
+  }
+  
+  #clear_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 48%;
+  }
+  
+  .added-string {
+    color: green;
+  }
+  
+  .deleted-string {
+    color: red;
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 20px;
+    background-color: #003161;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #fdd835;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
