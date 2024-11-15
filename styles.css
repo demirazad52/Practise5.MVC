@@ -21,8 +21,7 @@ body {
   
   /* Subtitle Styling */
   .subtitle {
-    background-color: #ffffff; /* Başlıkla aynı renk */
-    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     padding: 10px 20px;
     font-size: 16px;
     text-align: center;
@@ -53,17 +52,17 @@ body {
   }
   
   #add_button {
-    background-color: #fdd835; /* Yellow */
+    background-color: #fdd835; 
     margin-bottom: 10px;
   }
   
   #delete_button {
-    background-color: #fdd835; /* Yellow */
+    background-color: #fdd835; 
     margin-bottom: 10px;
   }
   
   #clear_button {
-    background-color: #000000; /* Black */
+    background-color: #000000; 
     color: white;
     margin: 20px 0;
   }
